@@ -36,3 +36,22 @@ next 4 mongth :
 2.Don't Skip This video
 3.Not Skip thowri
 
+
+============================= git hub set code ==========================>
+
+
+how to add the multiple repogitory?
+
+Add first 
+
+
+git init 
+git add .
+git commit -m "first commit "
+git remote add vercel YOUR_PERSONAL_ACCOUNT_REPOSITORY_HTTPS_URL
+git remote add code LWS_CLASSROOM_REPOSITORY_HTTPS_URL
+git branch -M main
+git push vercel main
+git push code main
+
+Done ....
