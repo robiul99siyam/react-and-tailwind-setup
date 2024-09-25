@@ -1,0 +1,38 @@
+react project set up :
+step 1  
+npm create vite@latest project_name -- --template react 
+step 2
+npm install -D tailwindcss postcss autoprefixer
+step 3
+npx tailwindcss init -p
+
+step 4 
+
+tailwind config.js file :
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+alfirst content array ei kaj gula korte hobe 
+
+step 5
+idex.css file ei package gula import korte hobe
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+next 4 mongth :
+
+1.readin hebits
+2.Don't Skip This video
+3.Not Skip thowri
+
