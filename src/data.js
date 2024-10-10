@@ -1,0 +1,42 @@
+// const homeDetails = [
+//   {
+//     id: 1,
+//     image: "https://i.ibb.co/hCfPtS3/download-1.jpg",
+//     name: "Oceanview Retreat",
+//     price: "$3000.00 /M",
+//     bedroom: "3 Bedrooms",
+//     bathrooms: "2 Bathrooms",
+//   },
+//   {
+//     id: 2,
+//     image: "https://i.ibb.co/5cxbL6k/home2.jpg",
+//     name: "Sunnyvale Bungalow",
+//     price: "$3200.00 /M",
+//     bedroom: "3 Bedrooms",
+//     bathrooms: "2 Bathrooms",
+//   },
+//   {
+//     id: 3,
+//     image: "https://i.ibb.co/MhJj7bX/home3.jpg",
+//     name: "Charming Country Cottage",
+//     price: "$3400.00 /M",
+//     bedroom: "3 Bedrooms",
+//     bathrooms: "2 Bathrooms",
+//   },
+//   {
+//     id: 4,
+//     image: "https://i.ibb.co/jfCzZ5w/home4.jpg",
+//     name: "Modern Luxury Villa",
+//     price: "$3600.00 /M",
+//     bedroom: "3 Bedrooms",
+//     bathrooms: "2 Bathrooms",
+//   },
+//   {
+//     id: 5,
+//     image: "https://i.ibb.co/BjwYPvw/home5.jpg",
+//     name: "Urban Loft Apartment",
+//     price: "$3800.00 /M",
+//     bedroom: "3 Bedrooms",
+//     bathrooms: "2 Bathrooms",
+//   },
+// ];
