@@ -1,8 +1,110 @@
-# React + Vite
+## How To use The manually function create map,filter,forEach
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Create the forEach function 
 
-Currently, two official plugins are available:
+- biltin function forEach 
+```
+array.forEach(function (value, index, array) {
+    console.log(value, index, array);
+})
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+- myForEach function 
+```
+function myForEach(array, callbackFunction) {
+    let len = array.length;
+    for (let i = 0; i < len; i++) {
+        callbackFunction(array[i], i, array)
+    }
+}
+
+
+myForEach(array, function (value, index, array) {
+    console.log(value);
+})
+
+```
+
+
+## Create the map function 
+
+- biltin map function working process
+```
+
+let output = array.map(function (value, index, array) {
+  return value * 2;
+});
+
+console.log(output);
+console.log(array);
+````
+
+- myMap function
+  
+```
+function myMap(array, callbackFunction) {
+  let len = array.length;
+  let newArray = [];
+  for (i = 0; i < len; i++) {
+    let temp = callbackFunction(array[i], i, array);
+    newArray.push(temp);
+  }
+
+  return newArray;
+}
+
+let result = myMap(array, function (value, index, array) {
+  return value;
+});
+
+console.log(result);
+
+```
+
+
+## Create the filter function 
+
+- biltin function 
+```
+let result = array.filter(function (value, index, array) {
+  return value % 2 === 1;
+});
+console.log(result);
+```
+- manually function
+```
+function myFilter(array, callbackFunction) {
+  let len = array.length;
+  let newArray = [];
+
+  for (let i = 0; i < len; i++) {
+    if (callbackFunction(array[i], i, array)) {
+      newArray.push(array[i]);
+    }
+  }
+  return newArray;
+}
+let result1 = myFilter(array, function (value, index, array) {
+  return array.indexOf(value) === index; // duplicate value the logic
+
+});
+console.log(result1);
+```
+
+
+## handle the reverse manual function
+
+```
+function handleClick() {
+    const newList = [];
+    
+
+    for (let i = list.length - 1; i >= 0; i--) {
+      let temp = list[i];
+      newList.push(temp);
+    }
+
+    setList(newList);
+  }
+```
