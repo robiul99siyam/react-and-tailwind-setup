@@ -3,14 +3,14 @@
 ## Create the forEach function 
 
 ```
-- biltin function forEach 
+-biltin function forEach 
 array.forEach(function (value, index, array) {
     console.log(value, index, array);
 })
 
 
 
-- myForEach function 
+-myForEach function 
 function myForEach(array, callbackFunction) {
     let len = array.length;
     for (let i = 0; i < len; i++) {
@@ -29,7 +29,7 @@ myForEach(array, function (value, index, array) {
 ## Create the map function 
 
 ```
-- biltin map function working process
+-biltin map function working process
 
 let output = array.map(function (value, index, array) {
   return value * 2;
