@@ -1,4 +1,4 @@
-# How To use The manually function create map,filter,forEach
+## How To use The manually function create map,filter,forEach
 
 ## Create the forEach function 
 
