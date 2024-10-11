@@ -2,15 +2,16 @@
 
 ## Create the forEach function 
 
-```
 -biltin function forEach 
+```
 array.forEach(function (value, index, array) {
     console.log(value, index, array);
 })
-
+```
 
 
 -myForEach function 
+```
 function myForEach(array, callbackFunction) {
     let len = array.length;
     for (let i = 0; i < len; i++) {
@@ -28,8 +29,8 @@ myForEach(array, function (value, index, array) {
 
 ## Create the map function 
 
-```
 -biltin map function working process
+```
 
 let output = array.map(function (value, index, array) {
   return value * 2;
@@ -37,9 +38,11 @@ let output = array.map(function (value, index, array) {
 
 console.log(output);
 console.log(array);
+````
 
 - myMap function
-
+  
+```
 function myMap(array, callbackFunction) {
   let len = array.length;
   let newArray = [];
@@ -62,14 +65,15 @@ console.log(result);
 
 ## Create the filter function 
 
-```
 - biltin function 
+```
 let result = array.filter(function (value, index, array) {
   return value % 2 === 1;
 });
 console.log(result);
-
-- manually function 
+```
+- manually function
+```
 function myFilter(array, callbackFunction) {
   let len = array.length;
   let newArray = [];
