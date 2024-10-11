@@ -3,7 +3,7 @@
 ### create the forEach function 
 
 ```
-* biltin function forEach 
+1. biltin function forEach 
 array.forEach(function (value, index, array) {
     console.log(value, index, array);
 })
