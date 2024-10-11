@@ -1,8 +1,25 @@
-# React + Vite
+# How To use The manually function create map,filter,forEach
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### create the forEach function 
 
-Currently, two official plugins are available:
+```
+* biltin function forEach 
+array.forEach(function (value, index, array) {
+    console.log(value, index, array);
+})
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+// myForEach function 
+function myForEach(array, callbackFunction) {
+    let len = array.length;
+    for (let i = 0; i < len; i++) {
+        callbackFunction(array[i], i, array)
+    }
+}
+
+
+myForEach(array, function (value, index, array) {
+    console.log(value);
+})
+```
