@@ -1,6 +1,6 @@
 # How To use The manually function create map,filter,forEach
 
-### create the forEach function 
+## Create the forEach function 
 
 ```
 - biltin function forEach 
@@ -26,7 +26,7 @@ myForEach(array, function (value, index, array) {
 ```
 
 
-### create the map function 
+## Create the map function 
 
 ```
 - biltin map function working process
@@ -57,4 +57,33 @@ let result = myMap(array, function (value, index, array) {
 
 console.log(result);
 
+```
+
+
+## Create the filter function 
+
+```
+- biltin function 
+let result = array.filter(function (value, index, array) {
+  return value % 2 === 1;
+});
+console.log(result);
+
+- manually function 
+function myFilter(array, callbackFunction) {
+  let len = array.length;
+  let newArray = [];
+
+  for (let i = 0; i < len; i++) {
+    if (callbackFunction(array[i], i, array)) {
+      newArray.push(array[i]);
+    }
+  }
+  return newArray;
+}
+let result1 = myFilter(array, function (value, index, array) {
+  return array.indexOf(value) === index; // duplicate value the logic
+
+});
+console.log(result1);
 ```
