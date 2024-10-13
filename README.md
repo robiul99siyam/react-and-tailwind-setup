@@ -108,3 +108,25 @@ function handleClick() {
     setList(newList);
   }
 ```
+
+## Find and FindIndex manual function 
+
+```
+const  arr = [1,2,3,4,5,6]
+
+function myFind(arr,cb){
+    let len = arr.length
+    for(let i=0;i<len;i++){
+        if(cb(arr[i], i,arr)){
+            return arr[i] // eikhane amora jodi arr[i] k bad i return kori  tahole amader eta index return korbe . 
+
+        }
+    }
+}
+
+myFind(arr,function(value){
+    if(value === 6){
+        console.log(value)
+    }
+})
+```
