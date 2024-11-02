@@ -1,3 +1,5 @@
+![Costom hooks in data fetch](https://i.ibb.co.com/ncmznQN/code1.png)
+![Costom hooks in form ]([https://i.ibb.co.com/ncmznQN/code1.png](https://i.ibb.co.com/SsCLtP6/code2.png))
 ## How To use The manually function create map,filter,forEach
 
 ## Create the forEach function 
@@ -131,5 +133,4 @@ myFind(arr,function(value){
 })
 ```
 
-![Costom hooks in data fetch](https://i.ibb.co.com/ncmznQN/code1.png)
 
