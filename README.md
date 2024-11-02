@@ -130,3 +130,6 @@ myFind(arr,function(value){
     }
 })
 ```
+
+![Costom hooks in data fetch](https://i.ibb.co.com/ncmznQN/code1.png)
+
